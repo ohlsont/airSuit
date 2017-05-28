@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta name="google-site-verification" content="<%= htmlWebpackPlugin.options.googleVerify %>" />
+
+        <!-- COMMON TAGS -->
+        <meta charset="utf-8">
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <!-- Search Engine -->
+        <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+        <meta name="keywords" content="<%= htmlWebpackPlugin.options.keywords %>">
+        <meta name="author" content="<%= htmlWebpackPlugin.options.author %>">
+        <meta name="image" content="<%= htmlWebpackPlugin.options.image %>">
+        <!-- Schema.org for Google -->
+        <meta itemprop="name" content="<%= htmlWebpackPlugin.options.title %>">
+        <meta itemprop="description" content="<%= htmlWebpackPlugin.options.description %>">
+        <meta itemprop="image" content="<%= htmlWebpackPlugin.options.image %>">
+        <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+        <meta name="og:title" content="<%= htmlWebpackPlugin.options.title %>">
+        <meta name="og:description" content="<%= htmlWebpackPlugin.options.description %>">
+        <meta name="og:image" content="<%= htmlWebpackPlugin.options.image %>">
+        <meta name="og:url" content="<%= htmlWebpackPlugin.options.url %>">
+        <meta name="og:site_name" content="<%= htmlWebpackPlugin.options.title %>">
+        <meta name="og:locale" content="sv_SV">
+        <meta name="fb:admins" content="755683868">
+        <meta name="og:type" content="website">
+
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    </head>
+    <body>
+        <div id="<%= htmlWebpackPlugin.options.mountId %>"></div>
+    </body>
+</html>
