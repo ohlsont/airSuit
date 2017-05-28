@@ -1,0 +1,32 @@
+{
+  "name": "airSuit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ohlsont/airSuit",
+  "license": "MIT",
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --config webpack.config.js",
+    "fix": "node_modules/.bin/tslint src/**/*.tsx --fix"
+  },
+  "dependencies": {
+    "@types/react": "^15.0.25",
+    "@types/react-dom": "^15.5.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.3",
+    "html-webpack-plugin": "^2.28.0",
+    "source-map-loader": "^0.2.1",
+    "tslint": "^5.3.2",
+    "tslint-config-airbnb": "^5.0.1",
+    "tslint-loader": "^3.5.3",
+    "tsutils": "1.6.0",
+    "typescript": "^2.3.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "peerDependencies": {
+    "tsutil": "1.6.0"
+  }
+}
